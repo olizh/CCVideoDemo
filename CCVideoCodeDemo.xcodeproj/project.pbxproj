@@ -12,6 +12,7 @@
 		503E53EA1E286B3100EE69F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503E53E81E286B3100EE69F7 /* Main.storyboard */; };
 		503E53EC1E286B3100EE69F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503E53EB1E286B3100EE69F7 /* Assets.xcassets */; };
 		503E53EF1E286B3100EE69F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503E53ED1E286B3100EE69F7 /* LaunchScreen.storyboard */; };
+		503E53F71E286B7900EE69F7 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 503E53F61E286B7900EE69F7 /* demo.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		503E53EB1E286B3100EE69F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503E53EE1E286B3100EE69F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		503E53F01E286B3100EE69F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503E53F61E286B7900EE69F7 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		503E53E31E286B3100EE69F7 /* CCVideoCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				503E53E41E286B3100EE69F7 /* AppDelegate.swift */,
+				503E53F61E286B7900EE69F7 /* demo.html */,
 				503E53E61E286B3100EE69F7 /* ViewController.swift */,
+				503E53F01E286B3100EE69F7 /* Info.plist */,
+				503E53E41E286B3100EE69F7 /* AppDelegate.swift */,
 				503E53E81E286B3100EE69F7 /* Main.storyboard */,
 				503E53EB1E286B3100EE69F7 /* Assets.xcassets */,
 				503E53ED1E286B3100EE69F7 /* LaunchScreen.storyboard */,
-				503E53F01E286B3100EE69F7 /* Info.plist */,
 			);
 			path = CCVideoCodeDemo;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503E53F71E286B7900EE69F7 /* demo.html in Resources */,
 				503E53EF1E286B3100EE69F7 /* LaunchScreen.storyboard in Resources */,
 				503E53EC1E286B3100EE69F7 /* Assets.xcassets in Resources */,
 				503E53EA1E286B3100EE69F7 /* Main.storyboard in Resources */,
@@ -263,6 +267,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9B3EA5ZLRB;
 				INFOPLIST_FILE = CCVideoCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ft.ftchinese.training.webapp.CCVideoCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9B3EA5ZLRB;
 				INFOPLIST_FILE = CCVideoCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ft.ftchinese.training.webapp.CCVideoCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
